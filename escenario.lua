@@ -25,6 +25,7 @@
 	local grupoCuadros = display.newGroup()
 	local grupoManifestantes = display.newGroup()
 	local grupoArmas = display.newGroup()
+	
 	grupoLocal:insert(display.newImage("images/background.jpg"))
 	grupoLocal:insert(grupoCuadros)
 	grupoLocal:insert(grupoArmas)
