@@ -10,6 +10,7 @@
 
 local widget     = require("widget")
 local storyboard = require("storyboard")
+--alocal escenario = require("escenario")
 
 local scene = storyboard.newScene()
 
@@ -46,7 +47,7 @@ function scene:createScene( event )
   background = display.newRect(group, 0,0, _W,_H)
   background:setFillColor(255,255,255)
 
-  title = display.newText(group, "Templagame", 20,20, native.systemFontBold, 40)
+  title = display.newText(group, "Furia Kochala Game", 20,20, native.systemFontBold, 40)
 
   playBtn = widget.newButton
   {
