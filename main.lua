@@ -8,7 +8,7 @@
 
 display.setStatusBar( display.HiddenStatusBar )
 
-local localGroup = display.newGroup()
+local storyboard = require "storyboard"
 
-local iniciar = require("escenario")
+storyboard.gotoScene( "splash" )
 
